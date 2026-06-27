@@ -1,0 +1,287 @@
+[
+  {
+    "model": "productos.categoria",
+    "pk": 1,
+    "fields": { "nombre": "Electrónica", "slug": "electronica" }
+  },
+  {
+    "model": "productos.categoria",
+    "pk": 2,
+    "fields": { "nombre": "Ropa y Accesorios", "slug": "ropa-accesorios" }
+  },
+  {
+    "model": "productos.categoria",
+    "pk": 3,
+    "fields": { "nombre": "Hogar", "slug": "hogar" }
+  },
+  {
+    "model": "productos.categoria",
+    "pk": 4,
+    "fields": { "nombre": "Deportes", "slug": "deportes" }
+  },
+  {
+    "model": "productos.categoria",
+    "pk": 5,
+    "fields": { "nombre": "Libros", "slug": "libros" }
+  },
+  {
+    "model": "productos.producto",
+    "pk": 1,
+    "fields": {
+      "nombre": "Auriculares Bluetooth Pro",
+      "descripcion": "Auriculares inalámbricos con cancelación de ruido activa y 30 horas de batería.",
+      "precio": "89.99",
+      "stock": 50,
+      "categoria": 1,
+      "imagen_url": "https://placehold.co/400x400?text=Auriculares",
+      "activo": true
+    }
+  },
+  {
+    "model": "productos.producto",
+    "pk": 2,
+    "fields": {
+      "nombre": "Teclado Mecánico RGB",
+      "descripcion": "Teclado mecánico con switches Cherry MX, retroiluminación RGB personalizable.",
+      "precio": "129.99",
+      "stock": 30,
+      "categoria": 1,
+      "imagen_url": "https://placehold.co/400x400?text=Teclado",
+      "activo": true
+    }
+  },
+  {
+    "model": "productos.producto",
+    "pk": 3,
+    "fields": {
+      "nombre": "Monitor 27\" 4K UHD",
+      "descripcion": "Monitor IPS 27 pulgadas con resolución 4K, HDR10 y 144Hz.",
+      "precio": "449.99",
+      "stock": 15,
+      "categoria": 1,
+      "imagen_url": "https://placehold.co/400x400?text=Monitor",
+      "activo": true
+    }
+  },
+  {
+    "model": "productos.producto",
+    "pk": 4,
+    "fields": {
+      "nombre": "Smartwatch Deportivo",
+      "descripcion": "Reloj inteligente con GPS, monitor cardíaco y resistencia al agua 50m.",
+      "precio": "199.99",
+      "stock": 40,
+      "categoria": 1,
+      "imagen_url": "https://placehold.co/400x400?text=Smartwatch",
+      "activo": true
+    }
+  },
+  {
+    "model": "productos.producto",
+    "pk": 5,
+    "fields": {
+      "nombre": "Cámara Web 4K",
+      "descripcion": "Cámara web con resolución 4K, micrófono estéreo y enfoque automático.",
+      "precio": "79.99",
+      "stock": 25,
+      "categoria": 1,
+      "imagen_url": "https://placehold.co/400x400?text=Camara+Web",
+      "activo": true
+    }
+  },
+  {
+    "model": "productos.producto",
+    "pk": 6,
+    "fields": {
+      "nombre": "Camiseta Algodón Premium",
+      "descripcion": "Camiseta de algodón orgánico, corte regular, disponible en varios colores.",
+      "precio": "29.99",
+      "stock": 100,
+      "categoria": 2,
+      "imagen_url": "https://placehold.co/400x400?text=Camiseta",
+      "activo": true
+    }
+  },
+  {
+    "model": "productos.producto",
+    "pk": 7,
+    "fields": {
+      "nombre": "Zapatillas Urbanas",
+      "descripcion": "Zapatillas casuales con suela amortiguada y diseño moderno.",
+      "precio": "89.99",
+      "stock": 60,
+      "categoria": 2,
+      "imagen_url": "https://placehold.co/400x400?text=Zapatillas",
+      "activo": true
+    }
+  },
+  {
+    "model": "productos.producto",
+    "pk": 8,
+    "fields": {
+      "nombre": "Mochila Viajera 40L",
+      "descripcion": "Mochila impermeable con compartimento para laptop y múltiples bolsillos.",
+      "precio": "59.99",
+      "stock": 35,
+      "categoria": 2,
+      "imagen_url": "https://placehold.co/400x400?text=Mochila",
+      "activo": true
+    }
+  },
+  {
+    "model": "productos.producto",
+    "pk": 9,
+    "fields": {
+      "nombre": "Reloj Clásico de Cuero",
+      "descripcion": "Reloj analógico con correa de cuero genuino y movimiento de cuarzo.",
+      "precio": "149.99",
+      "stock": 20,
+      "categoria": 2,
+      "imagen_url": "https://placehold.co/400x400?text=Reloj",
+      "activo": true
+    }
+  },
+  {
+    "model": "productos.producto",
+    "pk": 10,
+    "fields": {
+      "nombre": "Gafas de Sol Polarizadas",
+      "descripcion": "Gafas de sol con lentes polarizadas UV400 y montura de acetato.",
+      "precio": "39.99",
+      "stock": 80,
+      "categoria": 2,
+      "imagen_url": "https://placehold.co/400x400?text=Gafas",
+      "activo": true
+    }
+  },
+  {
+    "model": "productos.producto",
+    "pk": 11,
+    "fields": {
+      "nombre": "Lámpara de Mesa LED",
+      "descripcion": "Lámpara de escritorio con luz LED regulable y temperatura de color ajustable.",
+      "precio": "44.99",
+      "stock": 45,
+      "categoria": 3,
+      "imagen_url": "https://placehold.co/400x400?text=Lampara",
+      "activo": true
+    }
+  },
+  {
+    "model": "productos.producto",
+    "pk": 12,
+    "fields": {
+      "nombre": "Set de Sartenes Antiadherentes",
+      "descripcion": "Juego de 3 sartenes con recubrimiento cerámico antiadherente y bases magnéticas.",
+      "precio": "69.99",
+      "stock": 30,
+      "categoria": 3,
+      "imagen_url": "https://placehold.co/400x400?text=Sartenes",
+      "activo": true
+    }
+  },
+  {
+    "model": "productos.producto",
+    "pk": 13,
+    "fields": {
+      "nombre": "Organizador de Escritorio",
+      "descripcion": "Organizador multipropósito con compartimentos para oficina y escritorio.",
+      "precio": "24.99",
+      "stock": 70,
+      "categoria": 3,
+      "imagen_url": "https://placehold.co/400x400?text=Organizador",
+      "activo": true
+    }
+  },
+  {
+    "model": "productos.producto",
+    "pk": 14,
+    "fields": {
+      "nombre": "Almohada Viscoelástica",
+      "descripcion": "Almohada ergonómica con espuma viscoelástica y funda transpirable.",
+      "precio": "34.99",
+      "stock": 55,
+      "categoria": 3,
+      "imagen_url": "https://placehold.co/400x400?text=Almohada",
+      "activo": true
+    }
+  },
+  {
+    "model": "productos.producto",
+    "pk": 15,
+    "fields": {
+      "nombre": "Set de Toallas de Microfibra",
+      "descripcion": "Juego de 5 toallas de microfibra de secado rápido y alta absorción.",
+      "precio": "19.99",
+      "stock": 90,
+      "categoria": 3,
+      "imagen_url": "https://placehold.co/400x400?text=Toallas",
+      "activo": true
+    }
+  },
+  {
+    "model": "productos.producto",
+    "pk": 16,
+    "fields": {
+      "nombre": "Esterilla de Yoga",
+      "descripcion": "Esterilla antideslizante de 6mm con correa de transporte incluida.",
+      "precio": "29.99",
+      "stock": 65,
+      "categoria": 4,
+      "imagen_url": "https://placehold.co/400x400?text=Esterilla",
+      "activo": true
+    }
+  },
+  {
+    "model": "productos.producto",
+    "pk": 17,
+    "fields": {
+      "nombre": "Pesas Ajustables 20kg",
+      "descripcion": "Set de pesas ajustables con discos de hierro fundido y maletín incluido.",
+      "precio": "179.99",
+      "stock": 10,
+      "categoria": 4,
+      "imagen_url": "https://placehold.co/400x400?text=Pesas",
+      "activo": true
+    }
+  },
+  {
+    "model": "productos.producto",
+    "pk": 18,
+    "fields": {
+      "nombre": "Botella Deportiva Aislante",
+      "descripcion": "Botella térmica de acero inoxidable de 750ml, mantiene la temperatura 24h.",
+      "precio": "24.99",
+      "stock": 120,
+      "categoria": 4,
+      "imagen_url": "https://placehold.co/400x400?text=Botella",
+      "activo": true
+    }
+  },
+  {
+    "model": "productos.producto",
+    "pk": 19,
+    "fields": {
+      "nombre": "Código Limpio - Robert C. Martin",
+      "descripcion": "Guía de buenas prácticas para desarrollar software de calidad.",
+      "precio": "39.99",
+      "stock": 40,
+      "categoria": 5,
+      "imagen_url": "https://placehold.co/400x400?text=Libro+1",
+      "activo": true
+    }
+  },
+  {
+    "model": "productos.producto",
+    "pk": 20,
+    "fields": {
+      "nombre": "El Programador Pragmático",
+      "descripcion": "Manual clásico sobre la artesanía del desarrollo de software.",
+      "precio": "34.99",
+      "stock": 35,
+      "categoria": 5,
+      "imagen_url": "https://placehold.co/400x400?text=Libro+2",
+      "activo": true
+    }
+  }
+]
