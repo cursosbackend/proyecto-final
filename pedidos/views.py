@@ -43,5 +43,5 @@ def historial_ordenes(request):
 
 @login_required
 def detalle_orden(request, pk):
-    orden = get_object_or_404(Orden, pk=pk, usuario=request.usuario)
+    orden = get_object_or_404(Orden, pk=pk, usuario=request.user)
     return render(request, "pedidos/detalle.html", {"orden": orden})
